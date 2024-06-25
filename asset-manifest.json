@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vk-front/static/css/main.c149b50b.css",
+    "main.js": "/vk-front/static/js/main.bc1ba2a0.js",
+    "index.html": "/vk-front/index.html",
+    "main.c149b50b.css.map": "/vk-front/static/css/main.c149b50b.css.map",
+    "main.bc1ba2a0.js.map": "/vk-front/static/js/main.bc1ba2a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c149b50b.css",
+    "static/js/main.bc1ba2a0.js"
+  ]
+}
