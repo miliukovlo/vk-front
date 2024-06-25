@@ -1,0 +1,22 @@
+.loading-block {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #3a3a3a;
+  border-radius: 50%;
+  animation: 1.25s linear 0s infinite alternate-reverse loading;
+}
+
+@keyframes loading {
+  from {
+    border: 3px solid #3a3a3a;
+    transform: rotateZ(0deg);
+  }
+  to {
+    width: 70px;
+    height: 70px;
+    border: 5px solid #fafafa;
+    transform: rotateZ(360deg);
+  }
+}
+
+/*# sourceMappingURL=LoadingStyle.css.map */
