@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  min-height: 80px;
+}
+.header .header-title {
+  font-size: 3vh;
+  color: #fafafa;
+}
+
+/*# sourceMappingURL=HeaderStyle.css.map */
