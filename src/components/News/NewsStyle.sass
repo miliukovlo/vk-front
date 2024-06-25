@@ -1,0 +1,31 @@
+@use '../../styles/MainColors.sass' as colors
+    
+.news-block
+    width: 90%
+    height: 20%
+    min-height: 100px
+    display: flex
+    align-items: center
+    justify-content: space-around
+    flex-direction: column
+    border: 3px solid colors.$primary-colors
+    margin: 10px
+    .news-block__title
+        font-size: 1.25rem
+        color: colors.$title-colors
+    .news-block__author
+        font-size: .9375rem
+        color: colors.$title-colors
+    .news-block__info
+        font-size: .75rem
+        color: colors.$title-colors
+    .news-block__link
+        font-size: .75rem
+        color: colors.$title-colors
+        text-decoration: none
+        border-bottom: .125rem solid transparent
+        border-radius: 8px
+        transition-duration: 0.8s
+        padding: 5px
+    .news-block__link:hover
+        border-bottom: .125rem solid colors.$primary-colors

@@ -1,10 +1,23 @@
 .news-list__content {
   width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: #505050;
+}
+
+.news-list__observer {
+  width: 100%;
+  height: 30px;
+  background-color: #505050;
+}
+
+.news-list__button {
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: #fafafa;
 }
 
 /*# sourceMappingURL=NewsListStyle.css.map */

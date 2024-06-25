@@ -1,9 +1,9 @@
 import { newsType } from "../Types/newsType";
 
-export const getNews = async (newsLength: number) => {
+export const getNews = async (newsLength: number, sorted: string) => {
     try {
         let news: newsType[] = []
-        const newsIdResponse: Response = await fetch('https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty');
+        const newsIdResponse: Response = await fetch(`https://hacker-news.firebaseio.com/v0/${sorted}.json?print=pretty`);
         const newsId: number[] = await newsIdResponse.json();
         for (let i = 0; i < newsLength; i++) {
             try {

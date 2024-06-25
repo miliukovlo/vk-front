@@ -1,7 +1,19 @@
+@use '../../styles/MainColors.sass' as colors
+    
 .news-list__content 
     width: 100%
-    height: 100%
     display: flex
-    justify-content: center
     align-items: center
     flex-direction: column
+    background-color: colors.$secondary-colors
+.news-list__observer
+    width: 100%
+    height: 30px
+    background-color: colors.$secondary-colors
+.news-list__button
+    margin-top: 10px
+    width: 200px
+    border-radius: .5rem
+    background-color: transparent
+    color: colors.$title-colors
+    

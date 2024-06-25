@@ -3,9 +3,12 @@ import './LoadingStyle.css'
 
 const Loading = () => {
     return (
-        <div className='loading-block'>
+        <>
+            <h1 style={{color: '#fafafa'}}>Загрузка</h1>
+            <div className='loading-block'>
             
-        </div>
+            </div>
+        </>
     );
 }
 
