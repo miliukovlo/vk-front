@@ -104,6 +104,7 @@ const NewsList: React.FC = () => {
                                 score={singleNews.score}
                                 url={singleNews.url}
                                 kids={singleNews.kids}
+                                id={singleNews.id}
                             />
                         )
                     })

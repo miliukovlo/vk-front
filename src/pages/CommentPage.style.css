@@ -1,0 +1,11 @@
+.comment-page__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #505050;
+}
+.comment-page__title {
+    font-size: 1.25rem;
+    color: #fafafa
+}
